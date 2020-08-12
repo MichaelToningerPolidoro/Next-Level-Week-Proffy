@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sucesso no cadastro!</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/partials/success-page.css">
+</head>
+<body id="success-page">
+    <div id="container">
+        <div id="top-elements">
+            <h1>Cadastro concluído!</h1>
+            <img src="/images/icons/success-check-icon.svg" alt="Cadastro realizado com sucesso!">
+        </div>
+        <p>Agora, só esperar um contato via Whatsapp ;)</p>
+    </div>
+
+    <script>
+        setTimeout(() => {
+            window.location.href = `http://localhost:3000/study?subject={{subject}}&weekday={{weekday}}&time={{time}}`;
+        }, 2000);
+    </script>
+</body>
+</html>

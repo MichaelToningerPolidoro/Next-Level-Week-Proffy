@@ -1,0 +1,67 @@
+#success-page {
+    background-color: var(--color-success-page-background);
+    background-image: url('../../images/success-background.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#success-page #container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#success-page #container #top-elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#success-page #container #top-elements img {
+    width: 5rem;
+    height: 5rem;
+}
+
+#success-page #container #top-elements h1 {
+    font: 700 5rem Archivo;
+    color: var(--color-title-in-primary);
+    margin-right: 1.8rem;
+}
+
+#success-page #container p {
+    font: 400 1.6rem Archivo;
+    margin-top: 2.4rem;
+    color: var(--color-text-in-primary);
+}
+
+@media (max-width: 700px) {
+
+    #success-page #container {
+        max-width: 700px;
+    }
+
+    #success-page #container #top-elements {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #success-page #container #top-elements h1 {
+        justify-self: center;
+        font-size: 3.2rem;
+        margin-right: 0;
+    }
+
+    #success-page #container #top-elements img {
+        margin-top: 1.6rem;
+        width: 3.6rem;
+        height: 3.6rem;
+    }
+
+    #success-page #container p {
+        font-size: 1.4rem;
+    }
+}
