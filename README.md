@@ -34,7 +34,7 @@
   6. [SQlite3](https://sqlite.org/index.html) com [SQlite-async](https://www.npmjs.com/package/sqlite-async)
   7. [Git](https://git-scm.com/)
 
-  <br><br>[Voltar ao índice](#indice)
+  <br>[Voltar ao índice](#indice)
   
 ## <a name="aulas">4. Aulas :memo:</a>
   **Dia 1 (03/08) - Acelerando sua evolução** :heavy_check_mark:  
@@ -61,25 +61,45 @@
   Todos os assets foram disponibilizados pela ***@Rocketseat***.<br><br>
   
   Landing Page da aplicação (Tela inicial)
-  <img src="/github/landing-page.png"><br><br>
+  <img src="/github/landing-page.png" alt="Página inicial da aplicação"><br><br>
   
   Página dar aulas (Cadastro professores)
-  <img src="/github/give-classes-page1.png">
-  <img src="/github/give-classes-page2.png">
-  <img src="/github/give-classes-page3.png"><br><br>
+  <img src="/github/give-classes-page1.png" alt="Primeira parte da página dar aulas">
+  <img src="/github/give-classes-page2.png" alt="Segunda parte da página dar aulas">
+  <img src="/github/give-classes-page3.png" alt="Terceira parte da página dar aulas"><br><br>
   
   Página cadastro concluído com sucesso
-  <img src="/github/success-page.png"><br><br>
+  <img src="/github/success-page.png" alt="Página de cadastro concluído"><br><br>
   Página de estudos (Alunos)
   
-  <img src="/github/study-page2.png"><br><br>
+  <img src="/github/study-page2.png" alt="Página de estudo"><br><br>
   <br><br>[Voltar ao índice](#indice)
   
-## <a name="como-utilizar">6. Como utilizar :grey_question:</a>
-  <br><br>[Voltar ao índice](#indice)
+## <a name="como-utilizar">6. Como utilizar :grey_question:</a>  
+  Para utilizar o projeto, você precisa ter o **NodeJS** e o **Git** instalados em sua máquina, e então:<br>
+   - Clone esse repositório com o comando `git clone https://github.com/MichaelToningerPolidoro/Next-Level-Week-Proffy`
+   - Para entrar na pasta do projeto `cd Next-Level-Week-Proffy`
+   - Dentro da pasta do projeto, instale as dependências com `npm install`
+   - Crie o banco de dados utilizando o comando `node src/database/db.js`
+   - Rode o servidor em localhost:3000 com `node src/server.js`
+
+  <br>[Voltar ao índice](#indice)
   
 ## <a name="conceitos-aprendidos">7. Conceitos aprendidos :books:</a>
+  Durante esse evento, consegui aprender/fixar alguns conceitos como: <br>
+   - Buscas e registros em um banco de dados utilizando SQL.
+   - Conceito de Mobile First.
+   - Como funcionam rotas em um servidor.
+   - JavaScript assíncrono, utilizando promisses, e async/await.
+   - Melhor entendimento sobre os formulários HTML.
+   - Métodos [GET](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/GET) e [POST](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/POST) 
+   presentes do protocolo [HTTP](https://developer.mozilla.org/pt-BR/docs/Glossario/HTTP).
+   - Posicionamento e layout com CSS.
+   - Diversos outros conceitos apresentados durantes as aulas.
+  
   <br><br>[Voltar ao índice](#indice)
   
 ## <a name="quem-ministrou">8. Quem ministrou ? :mortar_board:</a>
+  A trilha discovery da NLW foi ministrada pelo [Mayk Brito](https://github.com/maykbrito), quem me ajudou
+  a descobrir novas tecnologias, entender novos conceitos e tecnologias no desenvolvimento Web, sou muito grato!
   <br><br>[Voltar ao índice](#indice)
